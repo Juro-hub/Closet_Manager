@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "184350569849",
+    "project_id": "closetmanger",
+    "storage_bucket": "closetmanger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184350569849:android:5859f2a89187e9cccfaba8",
+        "android_client_info": {
+          "package_name": "com.example.closet_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184350569849-ivtk8so38odmc5jv58jmlkltpq1465qg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDBTWIuRrs3xJHCp_FybGD2-gmaaO59XY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184350569849-ivtk8so38odmc5jv58jmlkltpq1465qg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Closet_Manager</string>
+    <string name="closet">옷장</string>
+    <string name="laundry_bin">빨래통</string>
+    <string name="bulletin">게시판</string>
+    <string name="member_info">회원정보</string>
+    <string name="main_title">Closet Manager</string>
+    <string name="hint">검색어를 입력해주세요.</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non enim augue. Integer quis accumsan mi. Donec efficitur, leo sed laoreet condimentum, tortor sapien viverra turpis, at tincidunt turpis dui luctus neque. Pellentesque leo sapien, ultrices in porttitor eget, sodales quis nunc. Donec pellentesque cursus diam vel volutpat. Maecenas ut sodales eros. Vivamus ut iaculis dolor. Phasellus a venenatis felis.
+
+Nulla ultrices, tellus nec sodales faucibus, nisl nibh condimentum nunc, in pretium massa dolor ac dui. Ut tempus dolor non arcu sollicitudin elementum. Morbi et blandit sem, et porttitor tellus. Morbi at velit nunc. Aliquam rutrum nec elit nec blandit. Ut posuere enim nec quam tristique volutpat. Duis tellus tellus, egestas a nunc at, imperdiet fermentum massa. Fusce eu feugiat quam. In sed porttitor dui, in convallis ligula. In hac habitasse platea dictumst. In vulputate dolor non pellentesque gravida.
+
+Quisque tincidunt velit mauris, et fringilla tortor ultricies non. Suspendisse potenti. Pellentesque lobortis, turpis nec eleifend luctus, sapien enim gravida lorem, ac pretium tortor lorem sed urna. Nam eget metus molestie, mattis diam ut, placerat massa. Mauris nec semper orci. Etiam neque enim, vehicula at nisl sit amet, molestie luctus lacus. Nunc quis mollis ipsum, consequat vehicula purus.
+
+Etiam mollis tortor eros, at volutpat erat tincidunt vitae. Nunc venenatis nulla suscipit lobortis vehicula. Nullam mollis pulvinar accumsan. Duis non blandit dui. Praesent vitae mauris sit amet ipsum dignissim suscipit. Praesent vulputate leo ac eleifend vehicula. Morbi quis nunc a leo elementum tincidunt nec id velit. Phasellus est tellus, tristique ut augue at, suscipit dapibus libero. Curabitur tempor bibendum justo sit amet tincidunt. Suspendisse nec scelerisque nisl, eu euismod ligula. Nullam vel tincidunt ante. Quisque faucibus consequat ipsum, sit amet laoreet enim pellentesque nec. Morbi hendrerit auctor nisl. In at porta sem.
+
+Aliquam non justo arcu. Nam auctor odio arcu, vel scelerisque mi tempus eu. Ut mollis ut eros ac convallis. Curabitur faucibus tempus metus in dapibus. Aliquam a pulvinar magna, vitae condimentum lorem. Vivamus non leo quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus sagittis rutrum purus, in sodales ligula. Aliquam iaculis velit sit amet nulla pretium lobortis. Praesent ornare lorem ex, nec sollicitudin dui consequat quis. Sed at venenatis erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec ipsum congue ex volutpat fermentum. Nullam porta orci at lacus molestie ultricies. Aliquam eu erat id leo scelerisque dignissim sed sed massa. Nullam et massa a diam efficitur porttitor quis ut velit.</string>
+    <string name="lorem_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non enim augue. Integer quis accumsan mi. Donec efficitur, leo sed laoreet condimentum, tortor sapien viverra turpis, at tincidunt turpis dui luctus neque. Pellentesque leo sapien, ultrices in porttitor eget, sodales quis nunc. Donec pellentesque cursus diam vel volutpat. Maecenas ut sodales eros. Vivamus ut iaculis dolor. Phasellus a venenatis felis.</string>
+</resources>

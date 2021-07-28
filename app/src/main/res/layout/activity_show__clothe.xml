@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="600dp"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="600dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/C_All"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:background="#86AFAB"
+                android:backgroundTint="@color/teal_200"
+                android:text="전체" />
+
+            <Button
+                android:id="@+id/C_Whoodie"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+
+                android:text="후드티" />
+
+            <Button
+                android:id="@+id/C_MTM"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+
+                android:text="맨투맨" />
+
+            <Button
+                android:id="@+id/C_ShortT"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+
+                android:text="반팔티" />
+
+            <Button
+                android:id="@+id/C_Coat"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+
+                android:text="코트" />
+
+            <Button
+                android:id="@+id/C_Shirt"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+
+                android:text="셔츠" />
+
+            <Button
+                android:id="@+id/C_One"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+
+                android:text="원피스" />
+
+            <Button
+                android:id="@+id/C_Long"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+
+                android:text="롱패딩" />
+
+            <Button
+                android:id="@+id/C_Short"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="숏패딩"
+                android:translationY="50dp"
+                android:textColor="@android:color/black"
+
+                android:translationX="-600dp"/>
+            <Button
+                android:layout_width="75dp"
+                android:id="@+id/C_Jacket"
+                android:layout_height="wrap_content"
+                android:text="자켓"
+                android:textColor="@android:color/black"
+
+                android:translationY="50dp"
+                android:translationX="-600dp"/>
+            <Button
+                android:id="@+id/C_Nasi"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+
+                android:text="나시"
+                android:translationY="50dp"
+                android:translationX="-600dp"/>
+            <Button
+                android:id="@+id/C_Clothe_Base"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+
+                android:text="야구잠바"
+                android:translationY="50dp"
+                android:translationX="-600dp"/>
+
+            <Button
+                android:id="@+id/C_Tranch"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+
+                android:text="트랜치"
+                android:translationX="-610dp"
+                android:translationY="50dp" />
+
+            <Button
+                android:id="@+id/C_kARA"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+
+                android:text="카라"
+                android:translationY="50dp"
+                android:translationX="-610dp"/>
+            <Button
+                android:id="@+id/C_Guardigun"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+
+                android:text="가디건"
+                android:translationY="50dp"
+                android:translationX="-610dp"/>
+            <Button
+                android:id="@+id/C_Neet"
+                android:layout_width="75dp"
+                android:textColor="@android:color/black"
+
+                android:layout_height="wrap_content"
+                android:text="니트"
+                android:translationY="50dp"
+                android:translationX="-610dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvClothes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp" />
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/btnSort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="온도별 추천" />
+
+            <Button
+                android:id="@+id/btnSortLike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:text="호감별 추천" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:onClick="onClick"
+                android:id="@+id/Plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:translationX="350dp"
+                android:translationY="0dp"
+                app:srcCompat="@android:drawable/ic_input_add" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
